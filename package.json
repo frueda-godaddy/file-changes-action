@@ -2,7 +2,7 @@
   "name": "@trilom/file-changes-action",
   "version": "1.2.4",
   "engines": {
-    "node": "12.16.3"
+    "node": ">=16.17 <17"
   },
   "description": "Creates outputs variables of files modified, added, or removed by a PR or Push.",
   "main": "lib/main.js",
@@ -36,7 +36,7 @@
   "homepage": "https://github.com/trilom/file-changes-action#README",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.10.0",
     "@actions/github": "^2.1.1"
   },
   "devDependencies": {

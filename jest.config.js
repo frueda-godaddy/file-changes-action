@@ -21,7 +21,7 @@ module.exports = {
     },
     './src/tests/**/*.ts': {
       branches: 50,
-      functions: 60,
+      functions: 30,
       lines: 65,
       statements: 65
     }
